@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ed43ea3-1453-4018-b213-3ca351942242" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/publication/Webpage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cs3500/hw01/publication/WebpageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/duration/AbstractDuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="150" column="8" lean-forward="true" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="13" />
+              <folding>
+                <element signature="docComment;class#AbstractDuration#0" />
+                <element signature="docComment;method#inSeconds#0;class#AbstractDuration#0" />
+                <element signature="method#inSeconds#0;class#AbstractDuration#0" />
+                <element signature="method#ensureHms#0;class#AbstractDuration#0" />
+                <element signature="docComment;method#hoursOf#0;class#AbstractDuration#0" />
+                <element signature="method#equals#0;class#AbstractDuration#0" />
+                <element signature="e#3395#3396#0" expanded="true" />
+                <element signature="e#3438#3439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/cs3500/hw01/publication/BookTest.java" />
+        <option value="$PROJECT_DIR$/test/Hw01TypeChecks.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/hw01/duration/HmsDuration.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/hw01/duration/CompactDuration.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/hw01/duration/Duration.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/hw01/duration/AbstractDurationTest.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/hw01/duration/AbstractDurationFormatTest.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/hw01/duration/AbstractDuration.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/hw01/publication/WebpageTest.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/hw01/publication/Webpage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="335" />
+    <option name="y" value="23" />
+    <option name="width" value="1345" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw01" type="462c0819:PsiDirectoryNode" />
+              <item name="duration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw01" type="462c0819:PsiDirectoryNode" />
+              <item name="publication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="hw01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="hw01" type="462c0819:PsiDirectoryNode" />
+              <item name="duration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW 1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="hw01" type="462c0819:PsiDirectoryNode" />
+              <item name="publication" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cs3500.hw01.publication" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AbstractDurationFormatTest$CompactDurationTest and 1 more">
+    <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.hw01.duration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.hw01.duration" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.hw01.duration.AbstractDurationFormatTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="cs3500.hw01.duration.AbstractDurationFormatTest$CompactDurationTest" />
+        <pattern testClass="cs3500.hw01.duration.AbstractDurationFormatTest$HmsDurationTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractDurationFormatTest$CompactDurationTest,formatTestInvaildSpecifier and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.hw01.duration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.hw01.duration" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.hw01.duration.AbstractDurationFormatTest" />
+      <option name="METHOD_NAME" value="formatTestInvaildSpecifier" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="cs3500.hw01.duration.AbstractDurationFormatTest$CompactDurationTest,formatTestInvaildSpecifier" />
+        <pattern testClass="cs3500.hw01.duration.AbstractDurationFormatTest$HmsDurationTest,formatTestInvaildSpecifier" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractDurationFormatTest$CompactDurationTest,formatTestMultiSpecifier and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.hw01.duration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.hw01.duration" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.hw01.duration.AbstractDurationFormatTest" />
+      <option name="METHOD_NAME" value="formatTestMultiSpecifier" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="cs3500.hw01.duration.AbstractDurationFormatTest$CompactDurationTest,formatTestMultiSpecifier" />
+        <pattern testClass="cs3500.hw01.duration.AbstractDurationFormatTest$HmsDurationTest,formatTestMultiSpecifier" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Homework One" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW 1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebpageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework One" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.hw01.publication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.hw01.publication" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.hw01.publication.WebpageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AbstractDurationFormatTest$CompactDurationTest and 1 more" />
+        <item itemvalue="JUnit.AbstractDurationFormatTest$CompactDurationTest,formatTestInvaildSpecifier and 1 more" />
+        <item itemvalue="JUnit.AbstractDurationFormatTest$CompactDurationTest and 1 more" />
+        <item itemvalue="JUnit.AbstractDurationFormatTest$CompactDurationTest,formatTestMultiSpecifier and 1 more" />
+        <item itemvalue="JUnit.AbstractDurationFormatTest$CompactDurationTest,formatTestMultiSpecifier and 1 more" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ed43ea3-1453-4018-b213-3ca351942242" name="Default Changelist" comment="" />
+      <created>1557154096593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557154096593</updated>
+      <workItem from="1557154100227" duration="4000" />
+      <workItem from="1557154255492" duration="582000" />
+      <workItem from="1557154899623" duration="301000" />
+      <workItem from="1557155265521" duration="1115000" />
+      <workItem from="1557157072507" duration="485000" />
+      <workItem from="1557239904130" duration="6504000" />
+      <workItem from="1557326252543" duration="95000" />
+      <workItem from="1557326364202" duration="135000" />
+      <workItem from="1557326570081" duration="572000" />
+      <workItem from="1557327296095" duration="6697000" />
+      <workItem from="1557409646981" duration="2000" />
+      <workItem from="1557417422253" duration="983000" />
+      <workItem from="1557418477808" duration="18349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 02m 09s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 02m 23s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 02m 40s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 02m 52s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 03m 03s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 03m 28s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 03m 41s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 03m 58s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 04m 12s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractDurationFormatTest$CompactDurationTest_and_1_more - 2019.05.10 at 19h 29m 07s.xml">
+      <configuration name="AbstractDurationFormatTest$CompactDurationTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35824000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="335" y="23" width="1345" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23407522" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16256684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38163266" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.23529412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3291506" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.015974442" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43212435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38163266" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3291506" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Homework One.iml" />
+    <entry file="file://$PROJECT_DIR$/test/cs3500/hw01/publication/ArticleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/publication/Publication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/publication/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/publication/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/duration/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+          <folding>
+            <element signature="docComment;method#format#0;class#Duration#0" />
+            <element signature="docComment;method#inSeconds#0;class#Duration#0" />
+            <element signature="docComment;method#asHms#0;class#Duration#0" />
+            <element signature="docComment;method#plus#0;class#Duration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/duration/CompactDuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;method#CompactDuration#1;class#CompactDuration#0" />
+            <element signature="method#CompactDuration#1;class#CompactDuration#0" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/duration/HmsDuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Hw01TypeChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/hw01/publication/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/hw01/duration/AbstractDurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1356">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/hw01/duration/AbstractDurationFormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/duration/AbstractDuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="150" column="8" lean-forward="true" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#AbstractDuration#0" />
+            <element signature="docComment;method#inSeconds#0;class#AbstractDuration#0" />
+            <element signature="method#inSeconds#0;class#AbstractDuration#0" />
+            <element signature="method#ensureHms#0;class#AbstractDuration#0" />
+            <element signature="docComment;method#hoursOf#0;class#AbstractDuration#0" />
+            <element signature="method#equals#0;class#AbstractDuration#0" />
+            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#3438#3439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/hw01/publication/WebpageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/hw01/publication/Webpage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Homework One</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
