@@ -216,34 +216,280 @@ public class ImplementationTests {
   // isGameOver() tests
   @Test
   public void testGameNotOver() {
-    assertEquals(false, this.defaultBoard.isGameOver());
-
     MarbleSolitaireModelImpl moveBoard = new MarbleSolitaireModelImpl();
+    String moveOut = "    O O O"
+            + "\n    O O O"
+            + "\nO O O O O O O"
+            + "\nO O O _ O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(false, moveBoard.isGameOver());
+    assertEquals(moveOut, moveBoard.getGameState());
 
     moveBoard.move(1, 3, 3, 3);
-    String moveOut = "    O O O"
-            + "\n    O _ O"
-            + "\nO O O _ O O O"
-            + "\nO O O O O O O"
-            + "\nO O O O O O O"
-            + "\n    O O O"
-            + "\n    O O O";
-
-    moveBoard.move(4, 3, 2, 3);
     moveOut = "    O O O"
             + "\n    O _ O"
+            + "\nO O O _ O O O"
             + "\nO O O O O O O"
-            + "\nO O O _ O O O"
-            + "\nO O O _ O O O"
+            + "\nO O O O O O O"
             + "\n    O O O"
             + "\n    O O O";
     assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
 
-    //moveBoard.move();
+    moveBoard.move(2, 1, 2, 3);
+    moveOut = "    O O O"
+            + "\n    O _ O"
+            + "\nO _ _ O O O O"
+            + "\nO O O O O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
 
+    moveBoard.move(2, 4, 2, 2);
+    moveOut = "    O O O"
+            + "\n    O _ O"
+            + "\nO _ O _ _ O O"
+            + "\nO O O O O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
     assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(0, 4, 2, 4);
+    moveOut = "    O O _"
+            + "\n    O _ _"
+            + "\nO _ O _ O O O"
+            + "\nO O O O O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
     assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(0, 2, 0, 4);
+    moveOut = "    _ _ O"
+            + "\n    O _ _"
+            + "\nO _ O _ O O O"
+            + "\nO O O O O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
     assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 2, 0, 2);
+    moveOut = "    O _ O"
+            + "\n    _ _ _"
+            + "\nO _ _ _ O O O"
+            + "\nO O O O O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(3, 4, 1, 4);
+    moveOut = "    O _ O"
+            + "\n    _ _ O"
+            + "\nO _ _ _ _ O O"
+            + "\nO O O O _ O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 2, 2, 2);
+    moveOut =   "    O _ O"
+            + "\n    _ _ O"
+            + "\nO _ O _ _ O O"
+            + "\nO O _ O _ O O"
+            + "\nO O _ O O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 3, 2, 3);
+    moveOut =   "    O _ O"
+            + "\n    _ _ O"
+            + "\nO _ O O _ O O"
+            + "\nO O _ _ _ O O"
+            + "\nO O _ _ O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 2, 2, 4);
+    moveOut =   "    O _ O"
+            + "\n    _ _ O"
+            + "\nO _ _ _ O O O"
+            + "\nO O _ _ _ O O"
+            + "\nO O _ _ O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(1, 4, 3, 4);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\nO _ _ _ _ O O"
+            + "\nO O _ _ O O O"
+            + "\nO O _ _ O O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 4, 2, 4);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\nO _ _ _ O O O"
+            + "\nO O _ _ _ O O"
+            + "\nO O _ _ _ O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 1, 2, 1);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\nO O _ _ O O O"
+            + "\nO _ _ _ _ O O"
+            + "\nO _ _ _ _ O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 0, 2, 2);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O _ O O O"
+            + "\nO _ _ _ _ O O"
+            + "\nO _ _ _ _ O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 5, 2, 3);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O O _ _ O"
+            + "\nO _ _ _ _ O O"
+            + "\nO _ _ _ _ O O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 5, 2, 5);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O O _ O O"
+            + "\nO _ _ _ _ _ O"
+            + "\nO _ _ _ _ _ O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 6, 2, 4);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O O O _ _"
+            + "\nO _ _ _ _ _ O"
+            + "\nO _ _ _ _ _ O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 3, 2, 1);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ O _ _ O _ _"
+            + "\nO _ _ _ _ _ O"
+            + "\nO _ _ _ _ _ O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 0, 2, 0);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\nO O _ _ O _ _"
+            + "\n_ _ _ _ _ _ O"
+            + "\n_ _ _ _ _ _ O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(2, 0, 2, 2);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O _ O _ _"
+            + "\n_ _ _ _ _ _ O"
+            + "\n_ _ _ _ _ _ O"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 6, 2, 6);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O _ O _ O"
+            + "\n_ _ _ _ _ _ _"
+            + "\n_ _ _ _ _ _ _"
+            + "\n    O O O"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(6, 2, 4, 2);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O _ O _ O"
+            + "\n_ _ _ _ _ _ _"
+            + "\n_ _ O _ _ _ _"
+            + "\n    _ O O"
+            + "\n    _ O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(5, 4, 5, 2);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O _ O _ O"
+            + "\n_ _ _ _ _ _ _"
+            + "\n_ _ O _ _ _ _"
+            + "\n    O _ _"
+            + "\n    _ O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(false, moveBoard.isGameOver());
+
+    moveBoard.move(4, 2, 6, 2);
+    moveOut =   "    O _ O"
+            + "\n    _ _ _"
+            + "\n_ _ O _ O _ O"
+            + "\n_ _ _ _ _ _ _"
+            + "\n_ _ _ _ _ _ _"
+            + "\n    _ _ _"
+            + "\n    O O O";
+    assertEquals(moveOut, moveBoard.getGameState());
+    assertEquals(true, moveBoard.isGameOver());
   }
 }
 
