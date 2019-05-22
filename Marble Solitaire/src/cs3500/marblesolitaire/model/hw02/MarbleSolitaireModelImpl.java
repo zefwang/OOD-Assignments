@@ -3,7 +3,8 @@ package cs3500.marblesolitaire.model.hw02;
 import java.util.ArrayList;
 
 /**
- * This class is an implementation of the MarbleSolitaireModel interface.
+ * This class is an implementation of the MarbleSolitaireModel interface. This model handles
+ * moves and determines the score & if the game is over.
  */
 public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
   private final int sRow;
