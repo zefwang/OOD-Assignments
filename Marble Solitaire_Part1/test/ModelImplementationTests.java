@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * This class contains the tests for the public methods of the MarbleSolitaireModelImpl class.
  */
-public class ImplementationTests {
+public class ModelImplementationTests {
 
   private MarbleSolitaireModelImpl defaultBoard = new MarbleSolitaireModelImpl();
   private MarbleSolitaireModelImpl setEmpty = new MarbleSolitaireModelImpl(2, 3);

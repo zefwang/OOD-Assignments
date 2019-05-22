@@ -5,12 +5,11 @@ import java.util.ArrayList;
 /**
  * This class is an implementation of the MarbleSolitaireModel interface.
  */
-
 public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
   private final int sRow;
   private final int sCol;
   private final int armThickness;
-  private ArrayList<ArrayList<String>> currentBoard;
+  private ArrayList<ArrayList<GamePiece>> currentBoard;
 
   /**
    * Constructs a {@code MarbleSolitaireModelImpl} object. Default constructor that creates a board
@@ -85,24 +84,24 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
    * @return the initial 3x3 board as a 2D array.
    */
   private void initBoard() {
-    ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
+    ArrayList<ArrayList<GamePiece>> result = new ArrayList<>();
 
     int sideLength = this.armThickness + 2 * (this.armThickness - 1);
 
     this.currentBoard = new ArrayList<>();
 
     for (int i = 0; i < sideLength; i++) {
-      ArrayList<String> rowResult = new ArrayList<>();
+      ArrayList<GamePiece> rowResult = new ArrayList<>();
       for (int j = 0; j < sideLength; j++) {
         if (!invalidPos(j, i)) {
           if (i == this.sRow && j == this.sCol) {
-            rowResult.add("_");
+            rowResult.add(GamePiece.EMPTY);
           } else {
-            rowResult.add("O");
+            rowResult.add(GamePiece.MARBLE);
           }
         } else {
           if (j < sideLength / 2) {
-            rowResult.add(" ");
+            rowResult.add(GamePiece.INVALID);
           }
         }
       }
@@ -145,15 +144,14 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
   @Override
   public void move(int fromRow, int fromCol, int toRow, int toCol) throws IllegalArgumentException {
     if (!validMove(fromRow, fromCol, toRow, toCol)) {
-      System.out.println(fromRow + " " + fromCol + " " + toRow + " " + toCol);
       throw new IllegalArgumentException("Invalid move");
     }
     int middleRow = (fromRow + toRow) / 2;
     int middleCol = (fromCol + toCol) / 2;
 
-    this.currentBoard.get(fromRow).set(fromCol, "_");
-    this.currentBoard.get(toRow).set(toCol, "O");
-    this.currentBoard.get(middleRow).set(middleCol, "_");
+    this.currentBoard.get(fromRow).set(fromCol, GamePiece.EMPTY);
+    this.currentBoard.get(toRow).set(toCol, GamePiece.MARBLE);
+    this.currentBoard.get(middleRow).set(middleCol, GamePiece.EMPTY);
   }
 
   /**
@@ -165,7 +163,7 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
   public boolean isGameOver() {
     for (int i = 0; i < this.currentBoard.size(); i++) {
       for (int j = 0; j < this.currentBoard.get(i).size(); j++) {
-        if (this.currentBoard.get(i).get(j).equals("O")) {
+        if (this.currentBoard.get(i).get(j).toString().equals("O")) {
           if (validMove(i, j, i + 2, j) || validMove(i, j, i - 2, j)
                   || validMove(i, j, i, j + 2) || validMove(i, j, i, j - 2)) {
             return false;
@@ -194,8 +192,7 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
     if (toRow < 0 || toRow > this.currentBoard.size() - 1
             || toCol < 0 || toCol > this.currentBoard.get(middleRow).size() - 1) {
       return false;
-    }
-    else if (invalidPos(fromRow, fromCol) || invalidPos(toRow, toCol)) {
+    } else if (invalidPos(fromRow, fromCol) || invalidPos(toRow, toCol)) {
       return false;
     }
     // Checks that distance is 2 using distance formula(only possible vertically or horizontally)
@@ -203,9 +200,9 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
       return false;
     }
     // Checks that "from" & middle position has a marble and "to" position is empty
-    else if (!(this.currentBoard.get(fromRow).get(fromCol).equals("O"))
-            || !(this.currentBoard.get(toRow).get(toCol).equals("_"))
-            || !(this.currentBoard.get(middleRow).get(middleCol).equals("O"))) {
+    else if (!(this.currentBoard.get(fromRow).get(fromCol).toString().equals("O"))
+            || !(this.currentBoard.get(toRow).get(toCol).toString().equals("_"))
+            || !(this.currentBoard.get(middleRow).get(middleCol).toString().equals("O"))) {
       return false;
     }
     return true;
@@ -220,10 +217,10 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
   public String getGameState() {
     String gameState = "";
     int currentRow = 0;
-    for (ArrayList<String> row : this.currentBoard) {
+    for (ArrayList<GamePiece> row : this.currentBoard) {
       int currentSlot = 0;
-      for (String item : row) {
-        gameState += item;
+      for (GamePiece item : row) {
+        gameState += item.toString();
         if (currentSlot + 1 != row.size()) {
           gameState += " "; //If not the last slot in row, add a space
         }
@@ -247,9 +244,9 @@ public class MarbleSolitaireModelImpl implements MarbleSolitaireModel {
   public int getScore() {
     int score = 0;
 
-    for (ArrayList<String> row : this.currentBoard) {
-      for (String item : row) {
-        if (item.equals("O")) {
+    for (ArrayList<GamePiece> row : this.currentBoard) {
+      for (GamePiece item : row) {
+        if (item.toString().equals("O")) {
           score++;
         }
       }
