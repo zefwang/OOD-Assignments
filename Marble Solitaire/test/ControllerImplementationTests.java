@@ -441,4 +441,29 @@ public class ControllerImplementationTests {
 
     test.playGame(testModel);
   }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void nullModelTest() {
+    StringBuffer out = new StringBuffer();
+    Reader in = new StringReader("4 3 4 5");
+
+    MarbleSolitaireController test = new MarbleSolitaireControllerImpl(in, out);
+
+    test.playGame(null);
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void nullReadableTest() {
+    StringBuffer out = new StringBuffer();
+
+    MarbleSolitaireController test = new MarbleSolitaireControllerImpl(null, out);
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void nullAppendableTest() {
+    Reader in = new StringReader("4 3 4 5");
+
+    MarbleSolitaireController test = new MarbleSolitaireControllerImpl(in, null);
+  }
 }
+

@@ -26,7 +26,6 @@ public class MarbleSolitaireControllerImpl implements MarbleSolitaireController 
    * @throws IllegalArgumentException if the Readable and/or Appendable are null.
    */
   public MarbleSolitaireControllerImpl(Readable rd, Appendable ap) throws IllegalArgumentException {
-    // IS IT SUPPOSED TO BE ONLY IF EITHER IS NULL? NOT BOTH
     if (rd == null || ap == null) {
       throw new IllegalArgumentException("Null argument");
     }

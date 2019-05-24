@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="291">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +43,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="docComment;method#MarbleSolitaireModelImpl#1;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#MarbleSolitaireModelImpl#2;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#MarbleSolitaireModelImpl#3;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#initBoard#0;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#invalidPos#0;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#determineMiddle#0;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#move#0;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#validMove#0;class#MarbleSolitaireModelImpl#0" />
+                <element signature="docComment;method#getScore#0;class#MarbleSolitaireModelImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ModelImplementationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="753">
+              <caret line="492" column="3" selection-start-line="492" selection-start-column="3" selection-end-line="492" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/ControllerImplementationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-end-line="469" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/GamePiece.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" />
+        <option value="$PROJECT_DIR$/test/ModelImplementationTests.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" />
         <option value="$PROJECT_DIR$/test/ControllerImplementationTests.java" />
       </list>
@@ -104,8 +137,102 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Marble Solitaire" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Marble Solitaire" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Marble Solitaire" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Marble Solitaire" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Marble Solitaire" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cs3500" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Marble Solitaire" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cs3500" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="marblesolitaire" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CS 3500 /Marble Solitaire" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CS 3500 /Marble Solitaire" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CS 3500 /Marble Solitaire" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cs3500" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/CS 3500 /Marble Solitaire" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Marble Solitaire" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Marble Solitaire" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Marble Solitaire" type="616d4139:PackageViewModuleNode" />
+              <item name="cs3500.marblesolitaire" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Marble Solitaire" type="616d4139:PackageViewModuleNode" />
+              <item name="cs3500.marblesolitaire" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Marble Solitaire" type="616d4139:PackageViewModuleNode" />
+              <item name="cs3500.marblesolitaire" type="1f31426a:PackageElementNode" />
+              <item name="model.hw02" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,19 +388,12 @@
       <workItem from="1558559797233" duration="863000" />
       <workItem from="1558568516077" duration="17796000" />
       <workItem from="1558651459000" duration="284000" />
+      <workItem from="1558663730790" duration="784000" />
+      <workItem from="1558712152822" duration="1267000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ControllerImplementationTests - 2019.05.23 at 18h 26m 55s.xml">
-      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerImplementationTests - 2019.05.23 at 18h 27m 22s.xml">
-      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerImplementationTests - 2019.05.23 at 18h 27m 47s.xml">
-      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ControllerImplementationTests_multiLettersTest - 2019.05.23 at 18h 29m 00s.xml">
       <configuration name="ControllerImplementationTests.multiLettersTest" configurationId="JUnit" />
     </history-entry>
@@ -295,9 +415,18 @@
     <history-entry file="ControllerImplementationTests - 2019.05.23 at 18h 47m 42s.xml">
       <configuration name="ControllerImplementationTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ControllerImplementationTests - 2019.05.23 at 22h 09m 01s.xml">
+      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerImplementationTests - 2019.05.24 at 15h 34m 12s.xml">
+      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerImplementationTests - 2019.05.24 at 15h 40m 06s.xml">
+      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86492000" />
+    <option name="totallyTimeSpent" value="88543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,9 +439,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1662" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.044444446" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/GamePiece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -389,10 +510,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ModelImplementationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="492" column="3" selection-start-line="492" selection-start-column="3" selection-end-line="492" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="docComment;method#MarbleSolitaireModelImpl#1;class#MarbleSolitaireModelImpl#0" />
             <element signature="docComment;method#MarbleSolitaireModelImpl#2;class#MarbleSolitaireModelImpl#0" />
@@ -407,10 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ModelImplementationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="291">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -419,18 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ControllerImplementationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="411" column="47" lean-forward="true" selection-start-line="411" selection-start-column="47" selection-end-line="411" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-end-line="469" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
