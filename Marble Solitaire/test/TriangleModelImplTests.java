@@ -38,11 +38,11 @@ public class TriangleModelImplTests {
     assertEquals(cellOut, cellTest.getGameState());
 
     MarbleSolitaireModel allCustTest = new TriangleSolitaireModelImpl(4, 2, 2);
-    String custOut = "    O"
-            + "\n   O O"
-            + "\n  O O _"
-            + "\n O O O O";
-    assertEquals(defaultOut, defaultTest.getGameState());
+    String custOut = "   O"
+            + "\n  O O"
+            + "\n O O _"
+            + "\nO O O O";
+    assertEquals(custOut, allCustTest.getGameState());
   }
 
   @Test(expected = IllegalArgumentException.class)
