@@ -305,7 +305,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 2, 2, 2);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ O"
             + "\nO _ O _ _ O O"
             + "\nO O _ O _ O O"
@@ -316,7 +316,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 3, 2, 3);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ O"
             + "\nO _ O O _ O O"
             + "\nO O _ _ _ O O"
@@ -327,7 +327,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(2, 2, 2, 4);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ O"
             + "\nO _ _ _ O O O"
             + "\nO O _ _ _ O O"
@@ -338,7 +338,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(1, 4, 3, 4);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\nO _ _ _ _ O O"
             + "\nO O _ _ O O O"
@@ -349,7 +349,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 4, 2, 4);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\nO _ _ _ O O O"
             + "\nO O _ _ _ O O"
@@ -360,7 +360,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 1, 2, 1);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\nO O _ _ O O O"
             + "\nO _ _ _ _ O O"
@@ -371,7 +371,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(2, 0, 2, 2);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O _ O O O"
             + "\nO _ _ _ _ O O"
@@ -382,7 +382,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(2, 5, 2, 3);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O O _ _ O"
             + "\nO _ _ _ _ O O"
@@ -393,7 +393,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 5, 2, 5);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O O _ O O"
             + "\nO _ _ _ _ _ O"
@@ -404,7 +404,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(2, 6, 2, 4);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O O O _ _"
             + "\nO _ _ _ _ _ O"
@@ -415,7 +415,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(2, 3, 2, 1);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ O _ _ O _ _"
             + "\nO _ _ _ _ _ O"
@@ -426,7 +426,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 0, 2, 0);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\nO O _ _ O _ _"
             + "\n_ _ _ _ _ _ O"
@@ -437,7 +437,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(2, 0, 2, 2);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O _ O _ _"
             + "\n_ _ _ _ _ _ O"
@@ -448,7 +448,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 6, 2, 6);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O _ O _ O"
             + "\n_ _ _ _ _ _ _"
@@ -459,7 +459,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(6, 2, 4, 2);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O _ O _ O"
             + "\n_ _ _ _ _ _ _"
@@ -470,7 +470,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(5, 4, 5, 2);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O _ O _ O"
             + "\n_ _ _ _ _ _ _"
@@ -481,7 +481,7 @@ public class ModelImplementationTests {
     assertEquals(false, moveBoard.isGameOver());
 
     moveBoard.move(4, 2, 6, 2);
-    moveOut =   "    O _ O"
+    moveOut = "    O _ O"
             + "\n    _ _ _"
             + "\n_ _ O _ O _ O"
             + "\n_ _ _ _ _ _ _"

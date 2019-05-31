@@ -367,6 +367,37 @@ public class ControllerImplementationTests {
   }
 
   @Test
+  public void quitBeforeEnd() {
+    StringBuffer out = new StringBuffer();
+    Reader in = new StringReader("4 2 4 q 4");
+
+    MarbleSolitaireModel testModel = new MarbleSolitaireModelImpl();
+    MarbleSolitaireController test = new MarbleSolitaireControllerImpl(in, out);
+
+    test.playGame(testModel);
+
+    String oneQuit = "    O O O"
+            + "\n    O O O"
+            + "\nO O O O O O O"
+            + "\nO O O _ O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O"
+            + "\nScore: 32"
+            + "\nGame quit!\nState of game when quit:\n"
+            + "    O O O"
+            + "\n    O O O"
+            + "\nO O O O O O O"
+            + "\nO O O _ O O O"
+            + "\nO O O O O O O"
+            + "\n    O O O"
+            + "\n    O O O"
+            + "\nScore: 32";
+
+    assertEquals(oneQuit, out.toString());
+  }
+
+  @Test
   public void gameCompleteTest() {
     StringBuffer out = new StringBuffer();
     Reader in = new StringReader("2 4 4 4 3 2 3 4 3 5 3 3 1 5 3 5 1 3 1 5 3 3 1 3 4 5 2 5 5 3 " +

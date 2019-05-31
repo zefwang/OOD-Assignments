@@ -3,11 +3,8 @@ package cs3500.marblesolitaire.controller;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.io.InputStreamReader;
 
 import cs3500.marblesolitaire.model.hw02.MarbleSolitaireModel;
-import cs3500.marblesolitaire.model.hw02.MarbleSolitaireModelImpl;
-
 
 /**
  * This class represents an implementation of a controller for MarbleSolitaire. This controller
@@ -31,16 +28,6 @@ public class MarbleSolitaireControllerImpl implements MarbleSolitaireController 
     }
     this.rd = rd;
     this.ap = ap;
-  }
-
-  public static void main(String[] args) {
-    MarbleSolitaireControllerImpl test =
-            new MarbleSolitaireControllerImpl(new InputStreamReader(System.in),
-                    System.out);
-
-    MarbleSolitaireModel testGame = new MarbleSolitaireModelImpl();
-
-    test.playGame(testGame);
   }
 
   /**
@@ -67,6 +54,7 @@ public class MarbleSolitaireControllerImpl implements MarbleSolitaireController 
       if (in.hasNext()) {
         // Takes the next user input
         nextVal = in.next();
+
         // Quit if q or Q
         if (nextVal.equals("q") || nextVal.equals("Q")) {
           noQuit = false;
@@ -83,28 +71,7 @@ public class MarbleSolitaireControllerImpl implements MarbleSolitaireController 
           }
         }
 
-        // Run through the numerical inputs
-        while (input.size() >= 4) {
-          // Add the positions (-1 because user input starts at 1)
-          int fromRow = input.get(0) - 1;
-          int fromCol = input.get(1) - 1;
-          int toRow = input.get(2) - 1;
-          int toCol = input.get(3) - 1;
-
-          // Remove the four elements
-          input.remove(0);
-          input.remove(0);
-          input.remove(0);
-          input.remove(0);
-
-          try {
-            model.move(fromRow, fromCol, toRow, toCol);
-          } catch (IllegalArgumentException e) {
-            this.appendTryCatch("Invalid move. Play again. The move could not be completed.");
-          }
-
-          this.appendTryCatch(model.getGameState() + "\nScore: " + model.getScore() + "\n");
-        }
+        this.tryMove(input, model);
 
       } else {
         throw new IllegalStateException("Out of inputs");
@@ -117,6 +84,30 @@ public class MarbleSolitaireControllerImpl implements MarbleSolitaireController 
     }
   }
 
+  private void tryMove(ArrayList<Integer> input, MarbleSolitaireModel model) {
+    // Run through the numerical inputs
+    while (input.size() >= 4) {
+      // Add the positions (-1 because user input starts at 1)
+      int fromRow = input.get(0) - 1;
+      int fromCol = input.get(1) - 1;
+      int toRow = input.get(2) - 1;
+      int toCol = input.get(3) - 1;
+
+      // Remove the four elements
+      input.remove(0);
+      input.remove(0);
+      input.remove(0);
+      input.remove(0);
+
+      try {
+        model.move(fromRow, fromCol, toRow, toCol);
+      } catch (IllegalArgumentException e) {
+        this.appendTryCatch("Invalid move. Play again. The move could not be completed.");
+      }
+
+      this.appendTryCatch(model.getGameState() + "\nScore: " + model.getScore() + "\n");
+    }
+  }
 
   private void appendTryCatch(String msg) {
     try {

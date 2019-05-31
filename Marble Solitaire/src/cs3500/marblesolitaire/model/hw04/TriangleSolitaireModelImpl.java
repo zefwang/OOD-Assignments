@@ -47,10 +47,10 @@ public class TriangleSolitaireModelImpl extends AbstractMS {
    * @throws IllegalArgumentException if the given cell is invalid.
    */
   public TriangleSolitaireModelImpl(int row, int col) {
+    this.sideLength = 5;
     if (invalidPos(row, col)) {
       throw new IllegalArgumentException("Invalid position");
     }
-    this.sideLength = 5;
     this.row = row;
     this.col = col;
     this.initBoard();
@@ -68,10 +68,11 @@ public class TriangleSolitaireModelImpl extends AbstractMS {
   public TriangleSolitaireModelImpl(int sideLength, int row, int col) {
     if (sideLength < 1) {
       throw new IllegalArgumentException("Invalid dimension");
-    } else if (this.invalidPos(row, col)) {
-      throw new IllegalArgumentException("Invalid position");
     }
     this.sideLength = sideLength;
+    if (this.invalidPos(row, col)) {
+      throw new IllegalArgumentException("Invalid position");
+    }
     this.row = row;
     this.col = col;
     this.initBoard();
@@ -97,7 +98,7 @@ public class TriangleSolitaireModelImpl extends AbstractMS {
   @Override
   protected boolean invalidPos(int mtRow, int mtCol) {
     // Only invalid if the column is greater than the row (ex. {6, 5})
-    return mtCol > mtRow;
+    return mtRow > this.sideLength - 1 || mtCol > mtRow;
   }
 
   @Override

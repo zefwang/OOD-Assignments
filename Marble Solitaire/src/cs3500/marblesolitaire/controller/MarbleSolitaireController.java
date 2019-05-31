@@ -12,7 +12,8 @@ public interface MarbleSolitaireController {
    * This method allows the user to play a game using a MarbleSolitaireModel.
    *
    * @param model This is the model for the game of Marble Solitaire.
-   * @throws IllegalArgumentException if the model is null,
+   * @throws IllegalArgumentException if the model is null.
+   * @throws IllegalStateException if there is an issue with Readable or Appendable.
    */
-  void playGame(MarbleSolitaireModel model) throws IllegalArgumentException;
+  void playGame(MarbleSolitaireModel model) throws IllegalArgumentException, IllegalStateException;
 }

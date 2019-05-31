@@ -8,13 +8,82 @@ import cs3500.marblesolitaire.model.hw02.MarbleSolitaireModel;
 /**
  * This class is an abstract implementation of the MarbleSolitaireModel interface. This model
  * reduces the amount of redundant code for handling moves and determining the score & if the game
- * is over.
+ * is over. Used in EuropeanSolitaireModel and the original model
  */
 public abstract class AbstractMS implements MarbleSolitaireModel {
   protected ArrayList<ArrayList<GamePiece>> currentBoard;
   protected int sideLength;
   protected int row;
   protected int col;
+
+  /**
+   * Constructs a {@code AbstractMS} object. Default constructor that creates a board with
+   * sideLength of 3 and empty middle cell. Used in EuropeanSolitaireModel and the original model
+   */
+  public AbstractMS() {
+    this.row = 3;
+    this.col = 3;
+    this.sideLength = 3;
+    this.initBoard();
+  }
+
+  /**
+   * Constructs a {@code EuropeanSolitaireModelImpl} object. This constructor creates a board with
+   * the given empty cell position and a side length of 3. Used in EuropeanSolitaireModel and the
+   * original model
+   *
+   * @param row represents the row value of the empty cell.
+   * @param col represents the col value of the empty cell.
+   * @throws IllegalArgumentException if the empty cell position is invalid.
+   */
+  public AbstractMS(int row, int col) {
+    this.sideLength = 3;
+    if (invalidPos(row, col)) {
+      throw new IllegalArgumentException("Invalid position for empty cell.");
+    }
+    this.row = row;
+    this.col = col;
+    this.initBoard();
+  }
+
+  /**
+   * Constructs a {@code AbstractMS} object. This constructor creates a board with the given
+   * sideLength and an empty middle cell. Used in EuropeanSolitaireModel and the original model
+   *
+   * @param sideLength represents the length of one side of the octagon.
+   * @throws IllegalArgumentException if the given side length is not > 1 and odd.
+   */
+  public AbstractMS(int sideLength) {
+    if (sideLength < 3 || sideLength % 2 != 1) {
+      throw new IllegalArgumentException("Invalid side length");
+    }
+    this.sideLength = sideLength;
+    this.row = determineMiddle();
+    this.col = determineMiddle();
+    this.initBoard();
+  }
+
+  /**
+   * Constructs a {@code EuropeanSolitaireModelImpl} object.
+   *
+   * @param sideLength the number of marbles in the top/bottom row or left/right columns.
+   * @param row        the row value (ie. y-val) of the position.
+   * @param col        the col value (ie. x-val) of the position.
+   * @throws IllegalArgumentException if armThickness is not valid or empty cell is in an invalid
+   *                                  position.
+   */
+  public AbstractMS(int sideLength, int row, int col) {
+    if (sideLength < 3 || sideLength % 2 != 1) {
+      throw new IllegalArgumentException("Invalid side length");
+    }
+    this.sideLength = sideLength;
+    if (invalidPos(row, col)) {
+      throw new IllegalArgumentException("Invalid position for empty cell");
+    }
+    this.row = row;
+    this.col = col;
+    this.initBoard();
+  }
 
   /**
    * Creates the initial game board for the MarbleSolitaireModel.
@@ -73,6 +142,7 @@ public abstract class AbstractMS implements MarbleSolitaireModel {
    * @param fromCol the column number of the position to be moved from.
    * @param toRow   the row number of the position to be moved to.
    * @param toCol   the column number of the position to be moved to.
+   * @throws IllegalArgumentException if the move is invalid
    */
   @Override
   public void move(int fromRow, int fromCol, int toRow, int toCol) throws IllegalArgumentException {

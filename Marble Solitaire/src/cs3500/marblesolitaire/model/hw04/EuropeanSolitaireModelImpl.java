@@ -12,10 +12,7 @@ public class EuropeanSolitaireModelImpl extends AbstractMS {
    * board with sideLength of 3 and empty middle cell.
    */
   public EuropeanSolitaireModelImpl() {
-    this.row = 3;
-    this.col = 3;
-    this.sideLength = 3;
-    this.initBoard();
+    super();
   }
 
   /**
@@ -26,13 +23,7 @@ public class EuropeanSolitaireModelImpl extends AbstractMS {
    * @throws IllegalArgumentException if the given side length is not > 1 and odd.
    */
   public EuropeanSolitaireModelImpl(int sideLength) {
-    if (sideLength < 3 || sideLength % 2 != 1) {
-      throw new IllegalArgumentException("Invalid side length");
-    }
-    this.sideLength = sideLength;
-    this.row = determineMiddle();
-    this.col = determineMiddle();
-    this.initBoard();
+    super(sideLength);
   }
 
   /**
@@ -44,30 +35,20 @@ public class EuropeanSolitaireModelImpl extends AbstractMS {
    * @throws IllegalArgumentException if the empty cell position is invalid.
    */
   public EuropeanSolitaireModelImpl(int row, int col) {
-    this.sideLength = 3;
-    if (invalidPos(row, col)) {
-      throw new IllegalArgumentException("Invalid position for empty cell.");
-    }
-    this.row = row;
-    this.col = col;
-    this.initBoard();
+    super(row, col);
   }
 
   /**
-   * Constructs a {@code EuropeanSolitaireModelImpl} object. This constructor creates a board with
-   * the given empty cell position and side length.
+   * Constructs a {@code EuropeanSolitaireModelImpl} object.
+   *
+   * @param sideLength the number of marbles in the top/bottom row or left/right columns.
+   * @param row        the row value (ie. y-val) of the position.
+   * @param col        the col value (ie. x-val) of the position.
+   * @throws IllegalArgumentException if armThickness is not valid or empty cell is in an invalid
+   *                                  position.
    */
   public EuropeanSolitaireModelImpl(int sideLength, int row, int col) {
-    if (sideLength < 3 || sideLength % 2 != 1) {
-      throw new IllegalArgumentException("Invalid side length");
-    }
-    this.sideLength = sideLength;
-    if (invalidPos(row, col)) {
-      throw new IllegalArgumentException("Invalid position for empty cell");
-    }
-    this.row = row;
-    this.col = col;
-    this.initBoard();
+    super(sideLength, row, col);
   }
 
   @Override
