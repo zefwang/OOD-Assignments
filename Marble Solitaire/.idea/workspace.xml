@@ -30,13 +30,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaire.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ControllerImplementationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="5805">
+              <caret line="1372" column="29" lean-forward="true" selection-start-line="1372" selection-start-column="29" selection-end-line="1372" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#oneMoveTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiMovesTest#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiMovesEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#letterInMiddleTest#0;class#ControllerImplementationTests#0" />
+                <element signature="method#letterInMiddleEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#letterInMiddleTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#letterSeparatingMovesTest#0;class#ControllerImplementationTests#0" />
+                <element signature="method#letterSeparatingMovesEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#letterSeparatingMovesTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiLettersTest#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiLettersEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiLettersTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#oneLetter#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiLetters#0;class#ControllerImplementationTests#0" />
+                <element signature="method#multiLettersEuro#1;class#ControllerImplementationTests#0" />
+                <element signature="method#multiLettersTriangleNo#0;class#ControllerImplementationTests#0" />
+                <element signature="method#oneQuit#0;class#ControllerImplementationTests#0" />
+                <element signature="method#oneQuitEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#oneQuitTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#quitInMiddle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#quitInMiddleEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#quitInMiddleTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#quitBeforeEnd#0;class#ControllerImplementationTests#0" />
+                <element signature="method#quitInMiddleEuro#1;class#ControllerImplementationTests#0" />
+                <element signature="method#quitInMiddleTriangle#1;class#ControllerImplementationTests#0" />
+                <element signature="method#gameCompleteTest#0;class#ControllerImplementationTests#0" />
+                <element signature="method#completeGameEuro#0;class#ControllerImplementationTests#0" />
+                <element signature="method#completeGameTriangle#0;class#ControllerImplementationTests#0" />
+                <element signature="method#invalidMove#1;class#ControllerImplementationTests#0" />
+                <element signature="method#invalidMoveEuro#1;class#ControllerImplementationTests#0" />
+                <element signature="method#outOfBoundMove#0;class#ControllerImplementationTests#0" />
+                <element signature="e#36247#36683#0" />
+                <element signature="e#36687#37123#0" />
+                <element signature="method#threeInputsTest#0;class#ControllerImplementationTests#0" />
+                <element signature="e#37498#37849#0" />
+                <element signature="e#37853#38204#0" />
+                <element signature="method#sixInputsTest#0;class#ControllerImplementationTests#0" />
+                <element signature="e#38584#38939#0" />
+                <element signature="e#38941#39296#0" />
+                <element signature="method#noQuitOrEnd#0;class#ControllerImplementationTests#0" />
+                <element signature="e#39673#40022#0" />
+                <element signature="method#nullReadableTest#0;class#ControllerImplementationTests#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/AppendableException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModelImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-253">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+              <folding>
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/AbstractMS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="223" column="22" lean-forward="true" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#initBoard#0;class#AbstractMS#0" />
+                <element signature="method#initBoard#0;class#AbstractMS#0" />
+                <element signature="docComment;method#invalidPos#0;class#AbstractMS#0" />
+                <element signature="docComment;method#determineMiddle#0;class#AbstractMS#0" />
+                <element signature="method#isGameOver#0;class#AbstractMS#0" />
+                <element signature="docComment;method#validMove#0;class#AbstractMS#0" />
+                <element signature="method#validMove#0;class#AbstractMS#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/EuropeanModelImplTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testGetGameState#0;class#EuropeanModelImplTests#0" />
+                <element signature="method#testEmptyFrom#0;class#EuropeanModelImplTests#0" />
+                <element signature="e#5359#5360#0" expanded="true" />
+                <element signature="e#5433#5434#0" expanded="true" />
+                <element signature="method#testIsGameOver#0;class#EuropeanModelImplTests#0" />
               </folding>
             </state>
           </provider>
@@ -67,21 +171,23 @@
         <option value="$PROJECT_DIR$/src/MarbleSolitaireModelImpl.java" />
         <option value="$PROJECT_DIR$/test/ImplementationTests.java" />
         <option value="$PROJECT_DIR$/test/ConstructorImplementationTests.java" />
-        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/GamePiece.java" />
+        <option value="$PROJECT_DIR$/test/Hw04TypeChecks.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModelImpl.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" />
-        <option value="$PROJECT_DIR$/test/ControllerImplementationTests.java" />
-        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/MarbleSolitaire.java" />
-        <option value="$PROJECT_DIR$/test/ModelImplementationTests.java" />
-        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/AbstractMS.java" />
-        <option value="$PROJECT_DIR$/test/Hw04TypeChecks.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/GamePiece.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java" />
-        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/AbstractMS.java" />
-        <option value="$PROJECT_DIR$/test/TriangleModelImplTests.java" />
-        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModelImpl.java" />
-        <option value="$PROJECT_DIR$/test/EuropeanModelImplTests.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModelImpl.java" />
         <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaire.java" />
+        <option value="$PROJECT_DIR$/test/ModelImplementationTests.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/MarbleSolitaire.java" />
+        <option value="$PROJECT_DIR$/test/TriangleModelImplTests.java" />
+        <option value="$PROJECT_DIR$/test/ControllerImplementationTests.java" />
+        <option value="$PROJECT_DIR$/test/EuropeanModelImplTests.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/AbstractMS.java" />
+        <option value="$PROJECT_DIR$/test/AppendableException.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/AbstractMS.java" />
       </list>
     </option>
   </component>
@@ -92,10 +198,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="549" />
-    <option name="y" value="23" />
-    <option name="width" value="1131" />
-    <option name="height" value="1027" />
+    <option name="x" value="440" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1680" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,6 +231,63 @@
               <item name="Marble Solitaire" type="616d4139:PackageViewModuleNode" />
               <item name="cs3500.marblesolitaire" type="1f31426a:PackageElementNode" />
               <item name="model.hw02" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="hw02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="hw04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,63 +361,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="hw02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="hw04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Marble Solitaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Marble Solitaire" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +370,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -275,6 +381,11 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cs3500.marblesolitaire.model.hw04" />
+      <recent name="cs3500.marblesolitaire.model" />
+      <recent name="cs3500.marblesolitaire" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,18 +400,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.english default">
-    <configuration name="Hw04TypeChecks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw04TypeChecks" />
+  <component name="RunManager" selected="JUnit.EuropeanModelImplTests.testOneMove">
+    <configuration name="english default" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
       <module name="Marble Solitaire" />
+      <option name="PROGRAM_PARAMETERS" value="european" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="english default" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.model.hw04.MarbleSolitaire" />
+    <configuration name="ControllerImplementationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Marble Solitaire" />
-      <option name="PROGRAM_PARAMETERS" value="european" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ControllerImplementationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerImplementationTests.appendableErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marble Solitaire" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ControllerImplementationTests" />
+      <option name="METHOD_NAME" value="appendableErrorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerImplementationTests.outOfBoundMoveEuro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marble Solitaire" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ControllerImplementationTests" />
+      <option name="METHOD_NAME" value="outOfBoundMoveEuro" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -314,30 +447,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EuropeanModelImplTests.testCustomGameState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EuropeanModelImplTests.testOneMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Marble Solitaire" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EuropeanModelImplTests" />
-      <option name="METHOD_NAME" value="testCustomGameState" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleModelImplTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Marble Solitaire" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleModelImplTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleModelImplTests.testInvalidMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Marble Solitaire" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleModelImplTests" />
-      <option name="METHOD_NAME" value="testInvalidMove" />
+      <option name="METHOD_NAME" value="testOneMove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -345,19 +459,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.english default" />
-      <item itemvalue="Application.Hw04TypeChecks" />
+      <item itemvalue="JUnit.ControllerImplementationTests.outOfBoundMoveEuro" />
+      <item itemvalue="JUnit.ControllerImplementationTests.appendableErrorTest" />
+      <item itemvalue="JUnit.ControllerImplementationTests" />
       <item itemvalue="JUnit.EuropeanModelImplTests" />
-      <item itemvalue="JUnit.EuropeanModelImplTests.testCustomGameState" />
-      <item itemvalue="JUnit.TriangleModelImplTests" />
-      <item itemvalue="JUnit.TriangleModelImplTests.testInvalidMove" />
+      <item itemvalue="JUnit.EuropeanModelImplTests.testOneMove" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EuropeanModelImplTests.testCustomGameState" />
-        <item itemvalue="JUnit.TriangleModelImplTests.testInvalidMove" />
-        <item itemvalue="Application.Hw04TypeChecks" />
-        <item itemvalue="JUnit.TriangleModelImplTests" />
+        <item itemvalue="JUnit.EuropeanModelImplTests.testOneMove" />
         <item itemvalue="JUnit.EuropeanModelImplTests" />
+        <item itemvalue="JUnit.ControllerImplementationTests" />
+        <item itemvalue="JUnit.ControllerImplementationTests.appendableErrorTest" />
+        <item itemvalue="JUnit.ControllerImplementationTests.outOfBoundMoveEuro" />
       </list>
     </recent_temporary>
   </component>
@@ -394,43 +508,47 @@
       <workItem from="1559019055403" duration="30000" />
       <workItem from="1559059227832" duration="171000" />
       <workItem from="1559145560331" duration="8059000" />
+      <workItem from="1559166823820" duration="2370000" />
+      <workItem from="1559224293000" duration="12995000" />
+      <workItem from="1559338190948" duration="1106000" />
+      <workItem from="1559428622118" duration="9020000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TriangleModelImplTests_testInvalidMove - 2019.05.29 at 15h 11m 20s.xml">
-      <configuration name="TriangleModelImplTests.testInvalidMove" configurationId="JUnit" />
+    <history-entry file="ControllerImplementationTests_outOfBoundMoveTriangle - 2019.06.01 at 19h 46m 58s.xml">
+      <configuration name="ControllerImplementationTests.outOfBoundMoveTriangle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleModelImplTests_testInvalidMove - 2019.05.29 at 15h 11m 56s.xml">
-      <configuration name="TriangleModelImplTests.testInvalidMove" configurationId="JUnit" />
+    <history-entry file="ControllerImplementationTests_outOfBoundMoveEuro - 2019.06.01 at 19h 47m 02s.xml">
+      <configuration name="ControllerImplementationTests.outOfBoundMoveEuro" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleModelImplTests_testInvalidMove - 2019.05.29 at 15h 12m 43s.xml">
-      <configuration name="TriangleModelImplTests.testInvalidMove" configurationId="JUnit" />
+    <history-entry file="ControllerImplementationTests_appendableErrorTest - 2019.06.01 at 19h 55m 20s.xml">
+      <configuration name="ControllerImplementationTests.appendableErrorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleModelImplTests_testInvalidMove - 2019.05.29 at 15h 13m 25s.xml">
-      <configuration name="TriangleModelImplTests.testInvalidMove" configurationId="JUnit" />
+    <history-entry file="ControllerImplementationTests - 2019.06.01 at 19h 56m 28s.xml">
+      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleModelImplTests_testInvalidMove - 2019.05.29 at 15h 15m 15s.xml">
-      <configuration name="TriangleModelImplTests.testInvalidMove" configurationId="JUnit" />
+    <history-entry file="ControllerImplementationTests - 2019.06.01 at 20h 00m 07s.xml">
+      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleModelImplTests_testInvalidMove - 2019.05.29 at 15h 20m 00s.xml">
-      <configuration name="TriangleModelImplTests.testInvalidMove" configurationId="JUnit" />
+    <history-entry file="ControllerImplementationTests - 2019.06.01 at 20h 09m 23s.xml">
+      <configuration name="ControllerImplementationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EuropeanModelImplTests_testCustomGameState - 2019.05.29 at 15h 20m 03s.xml">
-      <configuration name="EuropeanModelImplTests.testCustomGameState" configurationId="JUnit" />
+    <history-entry file="EuropeanModelImplTests - 2019.06.01 at 20h 09m 25s.xml">
+      <configuration name="EuropeanModelImplTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EuropeanModelImplTests_testCustomGameState - 2019.05.29 at 15h 22m 03s.xml">
-      <configuration name="EuropeanModelImplTests.testCustomGameState" configurationId="JUnit" />
+    <history-entry file="EuropeanModelImplTests - 2019.06.01 at 20h 29m 10s.xml">
+      <configuration name="EuropeanModelImplTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EuropeanModelImplTests_testCustomGameState - 2019.05.29 at 15h 22m 20s.xml">
-      <configuration name="EuropeanModelImplTests.testCustomGameState" configurationId="JUnit" />
+    <history-entry file="EuropeanModelImplTests_testOneMove - 2019.06.01 at 20h 39m 19s.xml">
+      <configuration name="EuropeanModelImplTests.testOneMove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EuropeanModelImplTests_testCustomGameState - 2019.05.29 at 15h 23m 53s.xml">
-      <configuration name="EuropeanModelImplTests.testCustomGameState" configurationId="JUnit" />
+    <history-entry file="EuropeanModelImplTests_testOneMove - 2019.06.01 at 21h 14m 30s.xml">
+      <configuration name="EuropeanModelImplTests.testOneMove" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114178000" />
+    <option name="totallyTimeSpent" value="139669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,10 +560,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="549" y="23" width="1131" height="1027" extended-state="0" />
+    <frame x="440" y="-1057" width="1680" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18457301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22283272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,7 +572,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24812834" />
+      <window_info anchor="bottom" x="20" y="451" width="1638" height="242" id="Run" order="2" weight="0.23419689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,7 +582,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.3284974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -499,53 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/GamePiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ControllerImplementationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2749">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Hw04TypeChecks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -553,26 +624,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#TriangleSolitaireModelImpl#0;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#TriangleSolitaireModelImpl#0;class#TriangleSolitaireModelImpl#0" />
+            <element signature="docComment;method#TriangleSolitaireModelImpl#1;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#TriangleSolitaireModelImpl#1;class#TriangleSolitaireModelImpl#0" />
+            <element signature="e#1087#1158#1" />
+            <element signature="docComment;method#TriangleSolitaireModelImpl#2;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#TriangleSolitaireModelImpl#2;class#TriangleSolitaireModelImpl#0" />
+            <element signature="docComment;method#TriangleSolitaireModelImpl#3;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#TriangleSolitaireModelImpl#3;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#initBoard#0;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#invalidPos#0;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#validMove#0;class#TriangleSolitaireModelImpl#0" />
+            <element signature="method#getGameState#0;class#TriangleSolitaireModelImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="docComment;method#MarbleSolitaireModelImpl#0;class#MarbleSolitaireModelImpl#0" />
-            <element signature="method#MarbleSolitaireModelImpl#0;class#MarbleSolitaireModelImpl#0" />
-            <element signature="method#MarbleSolitaireModelImpl#1;class#MarbleSolitaireModelImpl#0" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="docComment;method#MarbleSolitaireModelImpl#1;class#MarbleSolitaireModelImpl#0" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
             <element signature="docComment;method#MarbleSolitaireModelImpl#2;class#MarbleSolitaireModelImpl#0" />
-            <element signature="method#MarbleSolitaireModelImpl#2;class#MarbleSolitaireModelImpl#0" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
             <element signature="docComment;method#MarbleSolitaireModelImpl#3;class#MarbleSolitaireModelImpl#0" />
-            <element signature="method#MarbleSolitaireModelImpl#3;class#MarbleSolitaireModelImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ModelImplementationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-end-line="8" />
+        <state relative-caret-position="858">
+          <caret line="495" selection-start-line="495" selection-end-line="495" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testOneMove#0;class#ModelImplementationTests#0" />
+            <element signature="method#testGetGameState#0;class#ModelImplementationTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/GamePiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/MarbleSolitaire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -581,80 +711,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TriangleModelImplTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="371">
+          <caret line="219" column="21" lean-forward="true" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
+            <element signature="method#testInvalidSideLength#0;class#TriangleModelImplTests#0" />
+            <element signature="method#testInvalidEmptyCell#0;class#TriangleModelImplTests#0" />
+            <element signature="method#testAllDirections#0;class#TriangleModelImplTests#0" />
+            <element signature="method#testInitScore#0;class#TriangleModelImplTests#0" />
+            <element signature="method#testInitGameOver#0;class#TriangleModelImplTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModelImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="-597">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#TriangleSolitaireModelImpl#0;class#TriangleSolitaireModelImpl#0" />
-            <element signature="method#initBoard#0;class#TriangleSolitaireModelImpl#0" />
-            <element signature="method#invalidPos#0;class#TriangleSolitaireModelImpl#0" />
-            <element signature="method#getGameState#0;class#TriangleSolitaireModelImpl#0" />
-            <element signature="method#isGameOver#0;class#TriangleSolitaireModelImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/EuropeanModelImplTests.java">
+    <entry file="file://$PROJECT_DIR$/test/AppendableException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ControllerImplementationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5805">
+          <caret line="1372" column="29" lean-forward="true" selection-start-line="1372" selection-start-column="29" selection-end-line="1372" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="method#oneMoveTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiMovesTest#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiMovesEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#letterInMiddleTest#0;class#ControllerImplementationTests#0" />
+            <element signature="method#letterInMiddleEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#letterInMiddleTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#letterSeparatingMovesTest#0;class#ControllerImplementationTests#0" />
+            <element signature="method#letterSeparatingMovesEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#letterSeparatingMovesTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiLettersTest#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiLettersEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiLettersTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#oneLetter#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiLetters#0;class#ControllerImplementationTests#0" />
+            <element signature="method#multiLettersEuro#1;class#ControllerImplementationTests#0" />
+            <element signature="method#multiLettersTriangleNo#0;class#ControllerImplementationTests#0" />
+            <element signature="method#oneQuit#0;class#ControllerImplementationTests#0" />
+            <element signature="method#oneQuitEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#oneQuitTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#quitInMiddle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#quitInMiddleEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#quitInMiddleTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#quitBeforeEnd#0;class#ControllerImplementationTests#0" />
+            <element signature="method#quitInMiddleEuro#1;class#ControllerImplementationTests#0" />
+            <element signature="method#quitInMiddleTriangle#1;class#ControllerImplementationTests#0" />
+            <element signature="method#gameCompleteTest#0;class#ControllerImplementationTests#0" />
+            <element signature="method#completeGameEuro#0;class#ControllerImplementationTests#0" />
+            <element signature="method#completeGameTriangle#0;class#ControllerImplementationTests#0" />
+            <element signature="method#invalidMove#1;class#ControllerImplementationTests#0" />
+            <element signature="method#invalidMoveEuro#1;class#ControllerImplementationTests#0" />
+            <element signature="method#outOfBoundMove#0;class#ControllerImplementationTests#0" />
+            <element signature="e#36247#36683#0" />
+            <element signature="e#36687#37123#0" />
+            <element signature="method#threeInputsTest#0;class#ControllerImplementationTests#0" />
+            <element signature="e#37498#37849#0" />
+            <element signature="e#37853#38204#0" />
+            <element signature="method#sixInputsTest#0;class#ControllerImplementationTests#0" />
+            <element signature="e#38584#38939#0" />
+            <element signature="e#38941#39296#0" />
+            <element signature="method#noQuitOrEnd#0;class#ControllerImplementationTests#0" />
+            <element signature="e#39673#40022#0" />
+            <element signature="method#nullReadableTest#0;class#ControllerImplementationTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModelImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="-253">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/AbstractMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        <state relative-caret-position="287">
+          <caret line="223" column="22" lean-forward="true" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#initBoard#0;class#AbstractMS#0" />
+            <element signature="method#initBoard#0;class#AbstractMS#0" />
             <element signature="docComment;method#invalidPos#0;class#AbstractMS#0" />
             <element signature="docComment;method#determineMiddle#0;class#AbstractMS#0" />
-            <element signature="e#2229#2230#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="docComment;method#move#0;class#AbstractMS#0" />
-            <element signature="docComment;method#isGameOver#0;class#AbstractMS#0" />
             <element signature="method#isGameOver#0;class#AbstractMS#0" />
             <element signature="docComment;method#validMove#0;class#AbstractMS#0" />
             <element signature="method#validMove#0;class#AbstractMS#0" />
-            <element signature="method#getGameState#0;class#AbstractMS#0" />
-            <element signature="method#getScore#0;class#AbstractMS#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaire.java">
+    <entry file="file://$PROJECT_DIR$/test/EuropeanModelImplTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="386">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testGetGameState#0;class#EuropeanModelImplTests#0" />
+            <element signature="method#testEmptyFrom#0;class#EuropeanModelImplTests#0" />
+            <element signature="e#5359#5360#0" expanded="true" />
+            <element signature="e#5433#5434#0" expanded="true" />
+            <element signature="method#testIsGameOver#0;class#EuropeanModelImplTests#0" />
           </folding>
         </state>
       </provider>

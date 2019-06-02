@@ -146,7 +146,7 @@ public class TriangleModelImplTests {
   }
 
   @Test(expected = IllegalArgumentException.class)
-  public void testEmtpyMiddle() {
+  public void testEmptyMiddle() {
     MarbleSolitaireModel invalid = new TriangleSolitaireModelImpl();
     invalid.move(-1, 1, 1, -1);
   }

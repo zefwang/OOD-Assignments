@@ -246,4 +246,3 @@ public abstract class AbstractMS implements MarbleSolitaireModel {
     return score;
   }
 }
-
